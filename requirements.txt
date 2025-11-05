@@ -1,0 +1,8 @@
+torch
+numpy
+matplotlib
+streamlit
+keras
+scikit-learn
+tensorflow
+opencv-python

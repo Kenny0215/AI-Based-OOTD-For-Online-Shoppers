@@ -1,0 +1,10 @@
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\02142_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\01428_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\02815_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\08902_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\05364_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\11330_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\02518_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\01615_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\05260_00.jpg
+C:\UTEM\Course\Sem 5\BAXU 3923 (Workshop 2)\dataset\test\cloth\13322_00.jpg

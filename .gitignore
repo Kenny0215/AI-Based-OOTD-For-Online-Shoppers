@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Python virtualenv and Pipenv
+Pipfile.lock
+poetry.lock
+
+# Model weights & checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.pth
+*.pt
+*.joblib
+*.sav
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Datasets and temporary data
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+*.npz
+*.npy
+*.pickle
+*.pkl
+
+# Environment configuration
+.env
+.env.*
+
+# Caches
+.cache/
+*.log
+*.tmp
+*.bak
+
+# Colab files
+*.ipynb_output.json
+
+# PyTorch Lightning checkpoints
+lightning_logs/
+
+# __pycache__ or compiled binaries
+build/
+dist/
+*.egg-info
+
+# Testing
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+test-output/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Others
+.idea/
