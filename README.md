@@ -79,7 +79,6 @@ The integration of **recommendation, visualization, and conversational AI** form
 
 ## 🏗️ System Architecture
 
-```plaintext
 +--------------------------------------------------------------+
 |                      AI-Based OOTD System                    |
 +--------------------------------------------------------------+
@@ -128,6 +127,26 @@ The integration of **recommendation, visualization, and conversational AI** form
            │ (Recommended & Try-On Results)  │
            └────────────────────────────────┘
 
-<img width="884" height="455" alt="image" src="https://github.com/user-attachments/assets/5ba36b55-7983-486a-8ca3-a1f6e76ea384" />
+
+🧰 Tools & Technologies
+Programming Language	: Python 3.x
+Frameworks : Streamlit, TensorFlow / PyTorch
+Computer Vision :	OpenCV, Mediapipe
+NLP	: NLTK, spaCy, Streamlit Chat
+Data Handling	: Pandas, NumPy
+Visualization :	Matplotlib, Streamlit Components
+
+
+🔮 Future Enhancements
+
+- Integrate real e-commerce APIs (Shopee, Zalora, etc.).
+
+- Add voice-based chatbot functionality.
+
+- Use transformer-based fashion embeddings (e.g., FashionCLIP).
+
+- Enable dynamic trend updates through social media analysis.
+
+- Store personalized user profiles for long-term learning.
 
 
