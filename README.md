@@ -128,15 +128,6 @@ The integration of **recommendation, visualization, and conversational AI** form
            │ (Recommended & Try-On Results)  │
            └────────────────────────────────┘
 
-Tools and Technologies
-
-| Category                 | Tools / Libraries                |
-| :----------------------- | :------------------------------- |
-| **Programming Language** | Python 3.x                       |
-| **Frameworks**           | Streamlit, TensorFlow / PyTorch  |
-| **Computer Vision**      | OpenCV, Mediapipe                |
-| **NLP**                  | NLTK, spaCy, Streamlit Chat      |
-| **Data Handling**        | Pandas, NumPy                    |
-| **Visualization**        | Matplotlib, Streamlit Components |
+<img width="884" height="455" alt="image" src="https://github.com/user-attachments/assets/5ba36b55-7983-486a-8ca3-a1f6e76ea384" />
 
 
