@@ -78,7 +78,7 @@ The integration of **recommendation, visualization, and conversational AI** form
 ---
 
 ## 🏗️ System Architecture
-
+```
 +--------------------------------------------------------------+
 |                      AI-Based OOTD System                    |
 +--------------------------------------------------------------+
@@ -96,8 +96,9 @@ The integration of **recommendation, visualization, and conversational AI** form
 |  - User preferences / profile data                           |
 |  - Pre-trained models (feature extraction, segmentation)     |
 +--------------------------------------------------------------+
-
+```
 ## Project Flow
+```
   ┌──────────────────────────────────────────────────────┐
   │                   User Interaction                   │
   │ (Chatbot or Image Upload)                            │
@@ -126,7 +127,7 @@ The integration of **recommendation, visualization, and conversational AI** form
            │      Display Final Output       │
            │ (Recommended & Try-On Results)  │
            └────────────────────────────────┘
-
+```
 
 🧰 Tools & Technologies
 Programming Language	: Python 3.x
