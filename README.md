@@ -88,8 +88,8 @@ The integration of **recommendation, visualization, and conversational AI** form
 +--------------------------------------------------------------+
 |                   APPLICATION / LOGIC LAYER                  |
 |  [Module 1] Recommendation Engine  --> Suggests outfits      |
-|  [Module 2] Virtual Try-On System    --> Visualizes results   |
-|  [Module 3] Fashion Chatbot          --> Interacts with user  |
+|  [Module 2] Virtual Try-On System    --> Visualizes results  |
+|  [Module 3] Fashion Chatbot          --> Interacts with user |
 +--------------------------------------------------------------+
 |                       DATA LAYER                             |
 |  - Clothing Dataset (images, attributes)                     |
@@ -107,34 +107,39 @@ The integration of **recommendation, visualization, and conversational AI** form
                         ▼
         ┌──────────────────────────────────────┐
         │  Module 1: Recommendation Engine     │
-        │  → Generates top outfit matches       │
+        │  → Generates top outfit matches      │
         └──────────────────────────────────────┘
                         │
                         ▼
         ┌──────────────────────────────────────┐
         │  Module 2: Virtual Try-On (VTON)     │
-        │  → Visualizes outfit on user image    │
+        │  → Visualizes outfit on user image   │
         └──────────────────────────────────────┘
                         │
                         ▼
         ┌──────────────────────────────────────┐
         │  Module 3: Fashion Chatbot           │
-        │  → Handles user chat & feedback       │
+        │  → Handles user chat & feedback      │
         └──────────────────────────────────────┘
                         │
                         ▼
            ┌────────────────────────────────┐
-           │      Display Final Output       │
-           │ (Recommended & Try-On Results)  │
+           │      Display Final Output      │
+           │ (Recommended & Try-On Results) │
            └────────────────────────────────┘
 ```
 
 🧰 Tools & Technologies
 Programming Language	: Python 3.x
+
 Frameworks : Streamlit, TensorFlow / PyTorch
+
 Computer Vision :	OpenCV, Mediapipe
+
 NLP	: NLTK, spaCy, Streamlit Chat
+
 Data Handling	: Pandas, NumPy
+
 Visualization :	Matplotlib, Streamlit Components
 
 
