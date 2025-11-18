@@ -47,16 +47,17 @@ The integration of **recommendation, visualization, and conversational AI** form
 ## 🧩 System Modules Overview
 
 ### 🧠 **Module 1: AI-Based Recommendation System**
-- Suggests outfit combinations (top, bottom, accessories) based on color harmony, texture, and style.  
-- Uses image feature extraction and similarity-based matching to generate recommendations.  
-- Output: Recommended outfit list or images.  
+- Suggests outfit combinations based on color harmony, texture, and style.  
+- Uses image feature extraction and similarity-based matching to generate recommendations.
+  
+**Output:** Recommended outfit images.  
 
 ---
 
 ### 🧥 **Module 2: Virtual Try-On (VTON)**
 - Allows users to visualize how recommended outfits appear on their uploaded image.  
-- Uses image segmentation, warping, and blending techniques.  
-- Integrates with preprocessed clothing datasets and body keypoints.  
+- Uses image segmentation, warping, and blending techniques.
+- Using the GenAI API call to implement the functions.
 
 **Output:** Realistic visualization of user wearing the selected outfit.
 
@@ -64,10 +65,10 @@ The integration of **recommendation, visualization, and conversational AI** form
 
 ### 💬 **Module 3: Fashion Chatbot (AI Shopping Assistant)**
 - Provides a conversational interface for user interaction.  
-- Detects user intents (e.g., “recommend outfit”, “try it on”, “show trends”) and triggers corresponding modules.  
+- Detects user intents (recommend outfit) and triggers corresponding modules.  
 - Offers styling tips and answers basic fashion-related questions.  
 
-**Output:** Chat-based recommendations, interactive responses, and try-on commands.
+**Output:** Chat-based recommendations and interactive responses.
 
 ---
 
@@ -78,25 +79,28 @@ The integration of **recommendation, visualization, and conversational AI** form
 |                      AI-Based OOTD System                    |
 +--------------------------------------------------------------+
 |                     USER INTERFACE LAYER                     |
-|  - Streamlit Web App                                         |
-|  - Chatbot UI / Upload Image Interface                       |
+|  - Web UI                                                    |
+|  - Login and Register Page                                   |
+|  - Upload Image Interface                                    |
+|  - Images Generation Recommendation UI                       |
+|  - Virtual Try-On Results UI                                 |
+|  - Chatbot UI                                                |
 +--------------------------------------------------------------+
 |                   APPLICATION / LOGIC LAYER                  |
-|  [Module 1] Recommendation Engine  --> Suggests outfits      |
+|  [Module 1] Recommendation Engine    --> Suggests outfits    |
 |  [Module 2] Virtual Try-On System    --> Visualizes results  |
 |  [Module 3] Fashion Chatbot          --> Interacts with user |
 +--------------------------------------------------------------+
 |                       DATA LAYER                             |
-|  - Clothing Dataset (images, attributes)                     |
 |  - User preferences / profile data                           |
-|  - Pre-trained models (feature extraction, segmentation)     |
+|  - Pre-trained models (GenAI, Segmentation Warping)          |
 +--------------------------------------------------------------+
 ```
 ## Project Flow
 ```plaintext
   ┌──────────────────────────────────────────────────────┐
   │                   User Interaction                   │
-  │ (Chatbot or Image Upload)                            │
+  │                    (Image Upload)                    │
   └──────────────────────────────────────────────────────┘
                         │
                         ▼
