@@ -18,10 +18,9 @@ This project aims to help users discover, visualize, and interact with fashion c
 
 The **AI-Based OOTD for Online Shoppers** system focuses on:
 
-- **Recommendation Intelligence** — generating suitable outfit combinations using AI/ML models.  
-- **Visualization Experience** — providing realistic outfit try-on simulation through VTON techniques.  
+- **Recommendation Intelligence** — generating suitable outfit combinations using rule-based knowledge.  
+- **Visualization Experience** — providing realistic outfit try-on simulation through VTON techniques using GenAI API call. 
 - **Conversational Assistance** — enabling users to communicate with the system using a chatbot interface.  
-- **Integration for Online Retail** — connecting the modules into a unified platform that supports potential e-commerce applications.
 
 > The project does not include real-time e-commerce transactions but focuses on the intelligent fashion recommendation pipeline.
 
